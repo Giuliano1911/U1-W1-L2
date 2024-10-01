@@ -40,6 +40,7 @@
         >
       </menu>
     </header>
+    <hr />
     <main>
       <div id="post-title">
         <h1>Come creare un template per i post</h1>
@@ -50,8 +51,8 @@
           La prima cosa da fare è suddividere in blocchi logici la pagina,
           identificando le parti comuni da applicare a tutte le pagine.
         </p>
+        <p>Le varie aree saranno quindi suddivise in:</p>
         <ul>
-          <descr>Le varie aree saranno quindi suddivise in:</descr>
           <li>Contenuti di intestazione del tag &lt;header&gt;</li>
           <li>
             Contenuti centrali variabili nel tag &lt;main&gt; (corpo principale)
@@ -61,12 +62,11 @@
           </li>
         </ul>
         <h3>Formattazione del codice</h3>
+        <p>
+          Il testo dell'articolo dovrà essere formattato per identificare tutte
+          le parti da identificare con i CSS. Perciò i passi saranno:
+        </p>
         <ol>
-          <descr
-            >Il testo dell'articolo dovrà essere formattato per identificare
-            tutte le parti da identificare con i CSS. Perciò i passi
-            saranno:</descr
-          >
           <li>
             Progettare il markup assegnando ad ogni specifico testo il tag
             appropriato
@@ -82,7 +82,9 @@
           la diffusione pressochè totale.
         </p>
         <table>
-          <descr>Diffusione dei CSS</descr>
+          <caption>
+            Diffusione dei CSS
+          </caption>
           <thead>
             <tr>
               <td>Anno</td>
@@ -150,24 +152,25 @@
           <input type="submit" ; value="Iscriviti!" />
         </form>
       </div>
-      <aside class="correlated">
-        <h4>Articoli correlati</h4>
-        <p>
-          <a href="#">Validare il codice HTML</a><br />Categoria: delevop<br />Data:
-          18-09-2020
-        </p>
-        <p>
-          <a href="#">Correggere la sintassi</a><br />Categoria: delevop<br />Data:
-          16-09-2020
-        </p>
-        <p>
-          <a href="#">Meno kb nella pagina</a><br />Categoria: ottimizzazione<br />Data:
-          30-09-2020
-        </p>
-      </aside>
     </main>
+    <aside id="correlated">
+      <h4>Articoli correlati</h4>
+      <p>
+        <a href="#">Validare il codice HTML</a><br />Categoria: delevop<br />Data:
+        18-09-2020
+      </p>
+      <p>
+        <a href="#">Correggere la sintassi</a><br />Categoria: delevop<br />Data:
+        16-09-2020
+      </p>
+      <p>
+        <a href="#">Meno kb nella pagina</a><br />Categoria: ottimizzazione<br />Data:
+        30-09-2020
+      </p>
+    </aside>
+    <hr />
     <footer>
-      <h4>Blog Epicode ©2023</h4>
+      <h5>Blog Epicode ©2023</h5>
       <p>
         Testata online di Mario Rossi, registrata con prot. n.213/2018 - via
         Luigi Einaudi 2 - Milano - P.IVA 00112233 <br />
